@@ -1,0 +1,20 @@
+{
+    "name": "imarun/aws-wp-calculator-plugin",
+    "autoload": {
+        "psr-4": {
+            "ImArun\\Calculator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Arun Sharma",
+            "email": "dextorlobo@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
+        "wp-coding-standards/wpcs": "^2.3",
+        "automattic/vipwpcs": "^2.2"
+    }
+}

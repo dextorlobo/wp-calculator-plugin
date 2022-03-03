@@ -1,0 +1,242 @@
+
+@media screen and (max-width: 1920px) and (min-width: 1367px){
+body{
+		
+		font-size: 15px;
+	}	
+	p{
+		
+		font-size: 15px;
+	}
+.dashboard-link{
+	
+	font-size:13px;
+}
+.main-text img {
+    width: 200px;
+}
+.button a{
+	font-size:18px;
+}
+h5.user-name{
+	font-size:21px;
+}
+.edit-content label{
+	font-size: 17px;
+
+}
+.edit-content input{
+	height:60px;
+}
+.edit-content input[type="submit" i]{
+	
+
+font-size: 18px;
+
+}
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px){
+body{
+		
+		font-size: 13px;
+	}	
+	p{
+		
+		font-size: 13px;
+	}
+
+h1{
+	
+	
+	font-size:26px;
+}
+.button a{
+	font-size:16px;
+}
+h5.user-name{
+	font-size:16px;
+}
+.main-text img {
+    width: 120px;
+    margin-bottom: 30px;
+}
+.profile {
+    text-align: center;
+    padding: 20px 35px;
+}
+.dashboard-link{
+	
+	padding:10px 15px;
+}
+.logout-btn{
+	font-size:12px;
+	padding:15px 10px;
+}
+.main-text {
+    text-align: center;
+    width: 75%;
+}
+.edit-content{
+	
+	width: 75%;
+}
+
+.recentnews-item p{
+	font-size:13px;
+}
+.nav-tabs li a{
+	font-size:14px;
+	
+}
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px){
+body{
+		
+		font-size: 12px;
+	}	
+	p{
+		
+		font-size: 12px;
+	}
+
+h1{
+	
+	
+	font-size:22px;
+}
+.button a{
+	font-size:14px;
+}
+h5.user-name{
+	font-size:13px;
+}
+.main-text img {
+    width: 70px;
+    margin-bottom: 20px;
+}
+.profile {
+    text-align: center;
+    padding: 15px 25px;
+}
+.dashboard-link{
+	
+	padding:10px;
+}
+.logout-btn{
+	font-size:12px;
+	padding:15px 10px;
+}
+.main-text {
+    text-align: center;
+    width: 85%;
+}
+.edit-content{
+	
+	width: 85%;
+}
+.sidemenu{
+	
+	width:22%;
+}
+.main-body{
+	
+	padding-left:27%;
+	flex-wrap:wrap;
+}
+
+}
+
+@media screen and (max-width: 767px){
+body{
+		
+		font-size: 12px;
+	}	
+	p{
+		
+		font-size: 12px;
+	}
+
+h1{
+	
+	
+	font-size:22px;
+}
+.button a{
+	font-size:14px;
+}
+h5.user-name{
+	font-size:13px;
+}
+.main-text img {
+    width: 90px;
+    margin-bottom: 20px;
+}
+.profile {
+    text-align: center;
+    padding: 15px 25px;
+}
+.dashboard-link{
+	
+	padding:10px;
+}
+.logout-btn{
+	font-size:12px;
+	padding:15px 10px;
+}
+.main-text {
+    text-align: center;
+    width: 90%;
+}
+.edit-content{
+	
+	width: 90%;
+}
+.sidemenu{
+	left:-65%;
+	width:55%;
+	transition:all .5s;
+	top: auto;
+    bottom: 0;
+}
+.main-body{
+	
+	padding-left:0%;
+	flex-wrap:wrap;
+}
+.dashboard{
+	
+	padding:0;
+}
+.main-body{
+	
+	height:100vh;
+	
+}
+.main-content{
+	border-radius:0;
+}
+.buttons a{
+	
+	margin-bottom:10px;
+}
+.buttons{
+	
+	flex-direction:column;
+}
+.main-header-menu-icon{
+	display:block;
+}
+.main-text {
+    top: 20px;
+}
+.form-group.btn-group .btn.sub-button {
+    padding: 13px 10px;
+    width: 31%;
+    margin-right: 6px;
+	min-width: auto;
+}
+}
+
+
