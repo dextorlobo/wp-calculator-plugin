@@ -1,11 +1,12 @@
 <?php
 /**
- * ImArun Calculator plugin used to calculate Mortgage
+ * ImArun Calculator plugin used to calculate Mortgage.
+ * Use shortcodes [stampduty] and [landtax].
  *
  * @package           ImArun\Calculator
  *
  * Plugin Name:       Mortgage Calculator Plugin 
- * Description:       Calculate mortgage stamp duty and land tax
+ * Description:       Calculate mortgage stamp duty and land tax. Use shortcodes [stampduty] and [landtax].
  * Version:           1.1.2
  * Author:            Arun Sharma
  * Author URI:        http://www.imarun.me/
