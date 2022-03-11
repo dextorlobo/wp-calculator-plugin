@@ -96,7 +96,7 @@ class Plugin {
 								<div class="row">
 									<div class="col-md-4">
 										<div class="form-group">
-											<label class="control-label"><img src="http://virginradio.local/wp-content/plugins/wp-calculator-plugin/src/assets/images/white-house.png" alt="white-house"> State:</label>
+											<label class="control-label"><img src="'.plugin_dir_url( dirname( __FILE__ ) ).'src/assets/images/white-house.png" alt="white-house"> State:</label>
 											<select id="year" class="form-control" onchange="lets_calculate_stamp_duty();">
 												<option value="NSW">NSW</option>
 												<option value="NT">NT</option>
@@ -111,7 +111,7 @@ class Plugin {
 									</div>
 									<div class="col-md-4">
 										<div class="form-group">
-											<label class="control-label"><img src="http://virginradio.local/wp-content/plugins/wp-calculator-plugin/src/assets/images/value.png" alt="value"> Value of Property <span>(whole dollars):</span></label>
+											<label class="control-label"><img src="'.plugin_dir_url( dirname( __FILE__ ) ).'src/assets/images/value.png" alt="value"> Value of Property <span>(whole dollars):</span></label>
 											<div class="input-group tp">
 												<span class="input-group-addon"><span class="fa fa-usd"></span></span>
 												<input type="number" id="purposes" class="form-control" min="10000" value="10000" max="100000000" onkeyup="changeRangeValue(this.value)" onchange="lets_calculate_stamp_duty();" />
@@ -124,7 +124,7 @@ class Plugin {
 									</div>
 									<div class="col-md-4">
 										<div class="form-group">
-											<label class="control-label"><img src="http://virginradio.local/wp-content/plugins/wp-calculator-plugin/src/assets/images/teamwork.png" alt="teamwork"> Is the owner of land a foreign person?</label>
+											<label class="control-label"><img src="'.plugin_dir_url( dirname( __FILE__ ) ).'src/assets/images/teamwork.png" alt="teamwork"> Is the owner of land a foreign person?</label>
 											<div class="radio-grp">
 												<div class="radio-block  rd-block1">
 													<input type="radio" class="form-radio form-radio1" id="" name="foreign" value="yes" onchange="lets_calculate_stamp_duty();">
@@ -149,7 +149,7 @@ class Plugin {
 		
 									<div class="col-md-4">
 										<div class="form-group">
-											<label class="control-label"><img src="http://virginradio.local/wp-content/plugins/wp-calculator-plugin/src/assets/images/buyer.png" alt="buyer"> Are you first home buyer?</label>
+											<label class="control-label"><img src="'.plugin_dir_url( dirname( __FILE__ ) ).'src/assets/images/buyer.png" alt="buyer"> Are you first home buyer?</label>
 											<div class="radio-grp">
 												<div class="radio-block rd-block2">
 													<input type="radio" class="form-radio form-radio2" id="" name="buyer" value="yes" onchange="lets_calculate_stamp_duty();">
@@ -164,7 +164,7 @@ class Plugin {
 									</div>
 									<div class="col-md-4">
 										<div class="form-group">
-											<label class="control-label"><img src="http://virginradio.local/wp-content/plugins/wp-calculator-plugin/src/assets/images/property.png" alt="property"> Property type</label>
+											<label class="control-label"><img src="'.plugin_dir_url( dirname( __FILE__ ) ).'src/assets/images/property.png" alt="property"> Property type</label>
 											<div class="radio-grp">
 												<div class="radio-block rd-block3">
 													<input type="radio" class="form-radio form-radio3" id="" name="type" value="Primary residence" onchange="lets_calculate_stamp_duty();">
@@ -179,7 +179,7 @@ class Plugin {
 									</div>
 									<div class="col-md-4">
 										<div class="form-group">
-											<label class="control-label"><img src="http://virginradio.local/wp-content/plugins/wp-calculator-plugin/src/assets/images/purchase.png" alt="purchase"> Are you purchasing</label>
+											<label class="control-label"><img src="'.plugin_dir_url( dirname( __FILE__ ) ).'src/assets/images/purchase.png" alt="purchase"> Are you purchasing</label>
 											<div class="radio-grp">
 												<div class="radio-block rd-block4">
 													<input type="radio" class="form-radio form-radio4" id="" name="purchase" onchange="lets_calculate_stamp_duty();" value="Established">
@@ -276,7 +276,7 @@ class Plugin {
 								<div class="row">
 									<div class="col-md-4">
 										<div class="form-group">
-											<label class="control-label"><img src="http://virginradio.local/wp-content/plugins/wp-calculator-plugin/src/assets/images/white-house.png" alt="white-house"> State:</label>
+											<label class="control-label"><img src="'.plugin_dir_url( dirname( __FILE__ ) ).'src/assets/images/white-house.png" alt="white-house"> State:</label>
 											<select id="year" class="form-control" onchange="lets_calculate_land_tax();">
 												<option value="NSW">NSW</option>
 												<option value="WA">WA</option>
@@ -292,7 +292,7 @@ class Plugin {
 									</div>
 									<div class="col-md-4">
 										<div class="form-group">
-											<label class="control-label"><img src="http://virginradio.local/wp-content/plugins/wp-calculator-plugin/src/assets/images/tax-year.png" alt="tax-year"> Tax year:</label>
+											<label class="control-label"><img src="'.plugin_dir_url( dirname( __FILE__ ) ).'src/assets/images/tax-year.png" alt="tax-year"> Tax year:</label>
 											<select id="taxYear" class="form-control" name="taxYear" required="" onchange="lets_calculate_land_tax();">
 												<option value="2021">2021</option>
 												<option value="2020">2020</option>
@@ -307,7 +307,7 @@ class Plugin {
 		
 									<div class="col-md-4">
 										<div class="form-group">
-											<label class="control-label"><img src="http://virginradio.local/wp-content/plugins/wp-calculator-plugin/src/assets/images/value.png" alt="value"> Value of Property <span>(whole dollars):</span></label>
+											<label class="control-label"><img src="'.plugin_dir_url( dirname( __FILE__ ) ).'src/assets/images/value.png" alt="value"> Value of Property <span>(whole dollars):</span></label>
 											<div class="input-group tp">
 												<span class="input-group-addon"><span class="fa fa-usd"></span></span>
 												<input type="text" class="form-control" name="purposes" id="purposes" onchange="lets_calculate_land_tax();" value="10000" maxlength="13" title="AUD Currency format, no dollar signs, commas, spaces or cents">
@@ -320,7 +320,7 @@ class Plugin {
 									</div>
 									<div class="col-md-4">
 										<div class="form-group">
-											<label class="control-label"><img src="http://virginradio.local/wp-content/plugins/wp-calculator-plugin/src/assets/images/property.png" alt="property"> Occupied Property <span>(Land Value of current house):</span></label>
+											<label class="control-label"><img src="'.plugin_dir_url( dirname( __FILE__ ) ).'src/assets/images/property.png" alt="property"> Occupied Property <span>(Land Value of current house):</span></label>
 											<div class="input-group tp">
 												<span class="input-group-addon"><span class="fa fa-usd"></span></span>
 												<input type="text" class="form-control" name="land_value" id="land_value" onchange="lets_calculate_land_tax();" value="" maxlength="13" title="AUD Currency format, no dollar signs, commas, spaces or cents">
@@ -333,7 +333,7 @@ class Plugin {
 									</div>
 									<div class="col-md-4">
 										<div class="form-group">
-											<label class="control-label"><img src="http://virginradio.local/wp-content/plugins/wp-calculator-plugin/src/assets/images/teamwork.png" alt="teamwork"> Is the owner of land a foreign person?</label>
+											<label class="control-label"><img src="'.plugin_dir_url( dirname( __FILE__ ) ).'src/assets/images/teamwork.png" alt="teamwork"> Is the owner of land a foreign person?</label>
 											<div class="radio-grp">
 												<div class="radio-block  rd-block1">
 													<input type="radio" class="form-radio form-radio1" id="" name="foreign" value="yes" onclick="land_radio(); lets_calculate_land_tax();">
@@ -348,7 +348,7 @@ class Plugin {
 									</div>
 									<div class="col-md-4">
 										<div class="form-group" id="mscharge" style="display:none;">
-											<label class="control-label"><img src="http://virginradio.local/wp-content/plugins/wp-calculator-plugin/src/assets/images/buyer.png" alt="buyer"> Combined Property value of residential land for surcharge purposes <span>(whole dollars):</span></label>
+											<label class="control-label"><img src="'.plugin_dir_url( dirname( __FILE__ ) ).'src/assets/images/buyer.png" alt="buyer"> Combined Property value of residential land for surcharge purposes <span>(whole dollars):</span></label>
 											<div class="input-group tp">
 												<span class="input-group-addon"><span class="fa fa-usd"></span></span>
 												<input type="text" class="form-control" name="surcharge" id="surcharge" onchange="lets_calculate_land_tax();" value="" maxlength="13" title="AUD Currency format, no dollar signs, commas, spaces or cents">
