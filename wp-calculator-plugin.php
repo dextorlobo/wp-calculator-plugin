@@ -7,7 +7,7 @@
  *
  * Plugin Name:       Mortgage Calculator Plugin 
  * Description:       Calculate mortgage stamp duty and land tax. Use shortcodes [stampduty] and [landtax].
- * Version:           1.1.2
+ * Version:           1.1.8
  * Author:            Arun Sharma
  * Author URI:        http://www.imarun.me/
  * Text Domain: mcp
